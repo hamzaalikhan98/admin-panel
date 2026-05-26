@@ -80,15 +80,15 @@ admin-panel/
 
 # ⚙️ Installation & Setup
 
-## 1️⃣ Clone Repository
+## Clone Repository
 
 ```bash
-git clone https://github.com/asad-afzal9198/admin-panel.git
+git clone https://github.com/hamzaalikhan98/admin-panel.git
 ```
 
 ---
 
-## 2️⃣ Install Frontend Dependencies
+## Install Frontend Dependencies
 
 ```bash
 npm install
@@ -96,7 +96,7 @@ npm install
 
 ---
 
-## 3️⃣ Install Backend Dependencies
+## Install Backend Dependencies
 
 ```bash
 cd backend
@@ -106,10 +106,6 @@ npm install
 ---
 
 # 🗄️ MongoDB Setup
-
-Make sure MongoDB Community Server is installed and running locally.
-
-Connection used:
 
 ```bash
 mongodb://127.0.0.1:27017/fyp-auth
@@ -123,7 +119,7 @@ mongodb://127.0.0.1:27017/fyp-auth
 npm start
 ```
 
-Frontend runs on:
+Runs on:
 
 ```bash
 http://localhost:3000
@@ -138,7 +134,7 @@ cd backend
 npm run dev
 ```
 
-Backend runs on:
+Runs on:
 
 ```bash
 http://localhost:5000
@@ -154,15 +150,11 @@ http://localhost:5000
 POST /api/auth/register
 ```
 
----
-
 ## Login User
 
 ```http
 POST /api/auth/login
 ```
-
----
 
 ## Protected Profile Route
 
@@ -170,33 +162,11 @@ POST /api/auth/login
 GET /api/protected/profile
 ```
 
-Requires:
-- JWT Bearer Token
-
----
-
-# 📸 Screenshots
-
-## 🔐 Login Page
-- Secure authentication page
-
-## 📝 Registration Page
-- User registration with role selection
-
-## 👨‍💼 Admin Dashboard
-- Faculty & supervisor management panel
-
-## 👨‍🎓 Student Dashboard
-- Student information and project section
-
-## 👨‍🏫 Supervisor Dashboard
-- Assigned students and project requests
-
 ---
 
 # 🧪 API Testing
 
-All APIs were tested successfully using Postman:
+Tested successfully using Postman:
 - Register API
 - Login API
 - Protected Route API
@@ -212,11 +182,11 @@ All APIs were tested successfully using Postman:
 
 ---
 
-# 📦 GitHub Repository
+# 📸 Dashboards
 
-Repository Link:
-
-https://github.com/asad-afzal9198/admin-panel
+- Admin Dashboard
+- Student Dashboard
+- Supervisor Dashboard
 
 ---
 
@@ -230,11 +200,10 @@ https://github.com/asad-afzal9198/admin-panel
 
 # 📚 Learning Outcomes
 
-This project improved understanding of:
 - MERN Stack Development
 - Authentication Systems
-- API Integration
-- MongoDB Database Handling
+- MongoDB Integration
+- API Development
 - JWT Security
 - Role-Based Access Control
 
@@ -247,5 +216,3 @@ This project improved understanding of:
 ✔️ Authentication Module Completed  
 ✔️ MongoDB Integrated  
 ✔️ GitHub Repository Updated
-
----
